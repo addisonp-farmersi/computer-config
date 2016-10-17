@@ -29,16 +29,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 
 - brew install markdown
-- brew install ruby-gem
 - brew install ruby
 - brew install gem
 
 - gem install compass
 - brew install node
   need this version since it gives you access to npm, the node4 version does not have npm
-- brew unlink node ( vice versa is brew link )
-- brew install node `brew install homebrew/versions/node4-lts`
-
 - brew install joe
 
 - npm -g install grunt-cli
@@ -48,8 +44,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 go to the project directory (~/workspace/farmer-css)
 - npm install
+- bower install
 
-- simple .gitconfig:
+install mongo
+- brew install mongodb
+
+- brew unlink node ( vice versa is brew link )
+- brew install node `brew install homebrew/versions/node4-lts`
+
+sample .gitconfig:
 ```
 	[user]
 		name = Addison Pan
@@ -69,8 +72,20 @@ go to the project directory (~/workspace/farmer-css)
 OS setup
 System Preference -> Advanced -> Proxies -> click first 2 (Auto Proxy Discovery, Automatic Proxy Configuration)
 
-MONGO setup/requirements
+bashit
+installation directions: `https://github.com/Bash-it/bash-it`
+```
+$ . ~/.bash_profile
+```
+
+MONGO setup/requirements/start
 ```
 sudo mkdir -p /data/db
 sudo chmod 755 /data/db
+sudo chown -R addison.pan: /data
+mongod &
 ```
+test with `mongo`
+
+note: all bottle files that were downloaded
+~/Libarary/Cache
