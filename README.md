@@ -23,8 +23,9 @@ launch flycut on login
 
 - install IntelliJ (get it via an airdrop from someone who has the install package)
 	- plugins:
-		NodeJS
-		Karma
+		- NodeJS
+		- Karma
+		- Line Sorter
 
 - install brew via commandline in your iterm2
 ```
@@ -47,6 +48,8 @@ npm -g install phantomjs
 go to the project directory (~/workspace/farmer-css)
 - npm install (gets grunt and bower)
 - grunt update
+
+optionally, get the node directory from a working machine and airdrop it to whomever needs it
 
 if grunt update fails then try:
 ```
@@ -143,3 +146,10 @@ screen hero
 
 note: all bottle files that were downloaded
 ~/Libarary/Cache
+
+Airdrop - visible hostname
+```
+scutil --set HostName
+```
+TO DO:
+setup proxies for npm and grunt 
