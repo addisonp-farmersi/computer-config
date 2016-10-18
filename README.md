@@ -21,9 +21,12 @@ launch flycut on login
 
 - [Aquamacs](http://aquamacs.org/), [direct download](https://github-cloud.s3.amazonaws.com/releases/163782/df98aa78-7ec1-11e6-94e2-f2baf22a8138.dmg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20161017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20161017T033114Z&X-Amz-Expires=300&X-Amz-Signature=2852372ae195be018fcafa83540533b2ccf160788a97b283e5e356ea6a2dcb6a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.3.dmg&response-content-type=application%2Foctet-stream)
 
-- install IntelliJ
+- install IntelliJ (get it via an airdrop from someone who has the install package)
+	- plugins:
+		NodeJS
+		Karma
 
-- install brew 
+- install brew via commandline in your iterm2
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -43,14 +46,53 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 - npm -g install phantomjs
 
 go to the project directory (~/workspace/farmer-css)
-- npm install
-- bower install
+- npm install (gets grunt and bower)
+- grunt update
+
+if grunt update fails then try:
+```
+bower install
+cd test/e2e
+npm install
+```
+look for any errors such as the following example
+```
+> node node_modules/protractor/bin/webdriver-manager update
+
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: unable to get local issuer certificate
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1022:38)
+    at emitNone (events.js:67:13)
+    at TLSSocket.emit (events.js:166:7)
+    at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:586:8)
+    at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:428:38)
+
+npm ERR! Darwin 15.6.0
+npm ERR! argv "/usr/local/Cellar/node4-lts/4.6.0/bin/node" "/usr/local/bin/npm" "install"
+npm ERR! node v4.6.0
+npm ERR! npm  v2.15.9
+npm ERR! code ELIFECYCLE
+npm ERR! @ install: `node node_modules/protractor/bin/webdriver-manager update`
+npm ERR! Exit status 1
+npm ERR!
+```
+or go to starbucks and rerun `grunt update` in the farmers-css directory
+
 
 install mongo
 - brew install mongodb
 
-- brew unlink node ( vice versa is brew link )
+- brew unlink node ( vice versa is brew link node4-lts)
 - brew install node `brew install homebrew/versions/node4-lts`
+
+- node updates
+```
+
+```
 
 sample .gitconfig:
 ```
@@ -86,6 +128,17 @@ sudo chown -R addison.pan: /data
 mongod &
 ```
 test with `mongo`
+
+
+- need to install ant 'brew install ant'
+	- require java 'brew cask install java' 
+- need to install selenium 
+
+
+
+for remote pairing:
+screen hero
+	- request an invite from a member who already has an account
 
 note: all bottle files that were downloaded
 ~/Libarary/Cache
