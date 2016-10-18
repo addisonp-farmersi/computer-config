@@ -29,22 +29,21 @@ launch flycut on login
 - install brew via commandline in your iterm2
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install markdown
+brew install ruby
+brew install gem
+gem install compass
+brew install node
 ```
-
-- brew install markdown
-- brew install ruby
-- brew install gem
-
-- gem install compass
-- brew install node
   need this version since it gives you access to npm, the node4 version does not have npm
-- brew install joe
+```
+brew install joe
 
-- npm -g install grunt-cli
-- npm -g install karma
-- npm -g install bower
-- npm -g install phantomjs
-
+npm -g install grunt-cli
+npm -g install karma
+npm -g install bower
+npm -g install phantomjs
+```
 go to the project directory (~/workspace/farmer-css)
 - npm install (gets grunt and bower)
 - grunt update
@@ -84,10 +83,12 @@ or go to starbucks and rerun `grunt update` in the farmers-css directory
 
 
 install mongo
-- brew install mongodb
+```
+brew install mongodb
+```
 
-- brew unlink node ( vice versa is brew link node4-lts)
-- brew install node `brew install homebrew/versions/node4-lts`
+brew unlink node ( vice versa is brew link node4-lts)
+brew install node `brew install homebrew/versions/node4-lts`
 
 - node updates
 ```
