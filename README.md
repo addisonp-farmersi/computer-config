@@ -26,6 +26,7 @@ launch flycut on login
 		- NodeJS
 		- Karma
 		- Line Sorter
+		- Angular JS
 
 - install brew via commandline in your iterm2
 ```
@@ -46,10 +47,11 @@ npm -g install bower
 npm -g install phantomjs
 ```
 go to the project directory (~/workspace/farmer-css)
-- npm install (gets grunt and bower)
-- grunt update
-
-optionally, get the node directory from a working machine and airdrop it to whomever needs it
+```
+npm install (gets grunt and bower)
+grunt update
+```
+optionally, get the node directory from a working machine and airdrop it to whomever needs it.
 
 if grunt update fails then try:
 ```
