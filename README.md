@@ -146,10 +146,10 @@ sample ~/.gitconfig:
       cmd = opendiff \"$LOCAL\" \"$REMOTE\"
       path =
     [mergetool "sourcetree"]
-      cmd = /Users/pivotal/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+      cmd = /Users/addison.pan/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
       trustExitCode = true
     [mergetool "bc3"]
-      cmd = \"/Users/pivotal/Applications/Beyond Compare.app/Contents/MacOS/bcomp\"  \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+      cmd = \"/Users/addison.pan/Applications/Beyond Compare.app/Contents/MacOS/bcomp\"  \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
       trustExitCode = true
 
     [merge]
