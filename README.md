@@ -96,25 +96,64 @@ brew unlink node ( vice versa is brew link node4-lts)
 brew install node `brew install homebrew/versions/node4-lts`
 
 - node updates
-```
 
-```
 
-sample .gitconfig:
+sample ~/.git-authors
 ```
-	[user]
-		name = Addison Pan
-		email = addisonp.work@gmail.com
+authors:
+  jl: Joey Leung
+  bk: Ben Kamysz
+  ap: Addison Pan
+  hs: Harshesh Shah
+  mh: Manuk Hovanesian
 
-	[alias]
-	  co = checkout
-	  ci = commit
-	  st = status
-	  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	  type = cat-file -t
-	  dump = cat-file -p
-	  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-	  lola9 = log --graph --decorate --pretty=oneline --abbrev-commit --all -9
+email_addresses:
+  jl: joey.leung@farmersinsurance.com
+  bk: benjamin.kamysz@farmersinsurance.com
+  ap: addison.pan@farmersinsurance.com
+  hs: harshesh.shah@capgemini.com
+  mh: manuk.hovanesian@farmersinsurance.com
+```
+sample ~/.gitconfig:
+```
+    [user]
+        name = Addison Pan
+        email = haha@hehe.there
+
+    [alias]
+      co = checkout
+      ci = commit
+      st = status
+      hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+      type = cat-file -t
+      dump = cat-file -p
+      lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+      lola9 = log --graph --decorate --pretty=oneline --abbrev-commit -n9
+      cb = rev-parse --abbrev-ref HEAD
+      dci = duet-commit
+      pl = pull --ff-only
+      unpushed = log --branches --not --remotes --simplify-by-decoration --decorate --oneline
+      ready = rebase -i @{u}
+      lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+      story = "!f() { n=$1; story=$(sed -e \"s/#//\" <<< $n); branch=$(git branch -a | grep -o \"$story[-_a-zA-Z]*\" | head -n 1); git checkout $branch; }; f"
+
+    [core]
+      editor = /usr/bin/nano
+      excludesfile = /Users/addison.pan/.gitignore_global
+      autocrlf = input
+
+    [difftool "sourcetree"]
+      cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+      path =
+    [mergetool "sourcetree"]
+      cmd = /Users/pivotal/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+      trustExitCode = true
+    [mergetool "bc3"]
+      cmd = \"/Users/pivotal/Applications/Beyond Compare.app/Contents/MacOS/bcomp\"  \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+      trustExitCode = true
+
+    [merge]
+      tool=bc3
 ```
 
 OS setup
@@ -153,5 +192,12 @@ Airdrop - visible hostname
 ```
 scutil --set HostName
 ```
+
+Git Duet Wrapper
+```
+brew tap git-duet/tap
+brew install git-duet
+```
+Then use the git duet wrapper by setting it up as the git executable in intelliJ.  The git duet wrapper is under scripts/intellij_git_duet_wrapper.sh
 TO DO:
 setup proxies for npm and grunt 
