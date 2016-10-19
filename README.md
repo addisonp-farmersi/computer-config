@@ -199,5 +199,13 @@ brew tap git-duet/tap
 brew install git-duet
 ```
 Then use the git duet wrapper by setting it up as the git executable in intelliJ.  The git duet wrapper is under scripts/intellij_git_duet_wrapper.sh
+
+/etc/hosts for Jenkins
+```
+xx.xx.xx.xx css-jenkins.local css.jenkins
+```
+
+Ask Dirk: where in IntelliJ do we setup the duet wrapper?
+
 TO DO:
 setup proxies for npm and grunt 
