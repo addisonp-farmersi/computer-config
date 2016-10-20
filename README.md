@@ -115,6 +115,7 @@ authors:
   ap: Addison Pan
   hs: Harshesh Shah
   mh: Manuk Hovanesian
+  wl: William Lee
 
 email_addresses:
   jl: joey.leung@farmersinsurance.com
@@ -122,6 +123,7 @@ email_addresses:
   ap: addison.pan@farmersinsurance.com
   hs: harshesh.shah@capgemini.com
   mh: manuk.hovanesian@farmersinsurance.com
+  wl: william.lee@farmersinsurance.com
 ```
 sample ~/.gitconfig:
 ```
