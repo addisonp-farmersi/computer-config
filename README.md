@@ -224,6 +224,13 @@ Create the link to precommit hook
 ```
 ln -s $PWD/scripts/precommit_hook.sh .git/hooks/pre-commit
 ```
+setup the git proxy through ssh
+```
+ssh-keygen -t rsa -b 4096 -C "xxx"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub  (copy this)
+```
+then go to github.com -> settings -> SSH and GPG keys -> new SSH Key -> put in the data copied above from the id_rsa.pub 
 
 /etc/hosts for Jenkins
 ```
