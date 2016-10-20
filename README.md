@@ -131,12 +131,12 @@ authors:
   wl: William Lee
 
 email_addresses:
-  jl: joey.leung@farmersinsurance.com
-  bk: benjamin.kamysz@farmersinsurance.com
-  ap: addison.pan@farmersinsurance.com
-  hs: harshesh.shah@capgemini.com
-  mh: manuk.hovanesian@farmersinsurance.com
-  wl: william.lee@farmersinsurance.com
+  jl: xxxx@farmersinsurance.com
+  bk: xxx@farmersinsurance.com
+  ap: xxx@farmersinsurance.com
+  hs: xxx@capgemini.com
+  mh: xxx@farmersinsurance.com
+  wl: xxx@farmersinsurance.com
 ```
 sample ~/.gitconfig:
 ```
