@@ -220,7 +220,7 @@ Then use the git duet wrapper by setting it up as the git executable in intelliJ
 in intelliJ menu -> command ,
 git -> path to executable -> find your copy of the script
 ```
-Create the link to percommit hook
+Create the link to precommit hook
 ```
 ln -s $PWD/scripts/precommit_hook.sh .git/hooks/pre-commit
 ```
@@ -228,6 +228,11 @@ ln -s $PWD/scripts/precommit_hook.sh .git/hooks/pre-commit
 /etc/hosts for Jenkins
 ```
 xx.xx.xx.xx css-jenkins.local css.jenkins
+```
+
+Install the post receive hook (verify that you have css-jenkins in the hosts file)
+```
+ln -s $PWD/scripts/postreceive_hook.sh .git/hooks/post-receive
 ```
 
 Ask Dirk: 
