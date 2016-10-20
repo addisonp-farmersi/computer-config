@@ -232,6 +232,15 @@ cat ~/.ssh/id_rsa.pub  (copy this)
 ```
 then go to github.com -> settings -> SSH and GPG keys -> new SSH Key -> put in the data copied above from the id_rsa.pub 
 
+verify that the git remote is through ssh not through https
+```
+git remote -v
+```
+
+if the git remote is through https then change it via
+```
+git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git (get the actual value from a team member)
+```
 /etc/hosts for Jenkins
 ```
 xx.xx.xx.xx css-jenkins.local css.jenkins
