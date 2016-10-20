@@ -209,7 +209,9 @@ Then use the git duet wrapper by setting it up as the git executable in intelliJ
 xx.xx.xx.xx css-jenkins.local css.jenkins
 ```
 
-Ask Dirk: where in IntelliJ do we setup the duet wrapper?
+Ask Dirk: 
+1. where in IntelliJ do we setup the duet wrapper?
+2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments 
 
 TO DO:
 setup proxies for npm and grunt 
