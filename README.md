@@ -19,10 +19,22 @@ launch flycut on login
 
 - [Iterm2](https://iterm2.com/),  [direct download](https://iterm2.com/downloads/stable/iTerm2-3_0_10.zip) is a terminal replacement 
 
-optional (is you wish to use emacs)
+Aquamacs is optional, for those that wish to use emacs:
 - [Aquamacs](http://aquamacs.org/), [direct download](https://github-cloud.s3.amazonaws.com/releases/163782/df98aa78-7ec1-11e6-94e2-f2baf22a8138.dmg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20161017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20161017T033114Z&X-Amz-Expires=300&X-Amz-Signature=2852372ae195be018fcafa83540533b2ccf160788a97b283e5e356ea6a2dcb6a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.3.dmg&response-content-type=application%2Foctet-stream)
 
-- install IntelliJ (get it via an airdrop from someone who has the install package)
+- [Jiggler](http://www.sticksoftware.com/software/Jiggler.html), [direct download](http://downloads.sticksoftware.com/Jiggler.dmg)
+
+- [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
+	- update proxy (upper right corner of the browser -> more -> setting -> advanced settings -> network)
+```
+auto proxy discover
+auto proxy configuration
+```
+	
+
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/), [direct download](https://www.mozilla.org/firefox/new/?scene=2)
+
+- install IntelliJ (get it via an airdrop from someone who has the install package ie. `idealU-2016.2.4.dmg`)
 	- plugins:
 		- NodeJS
 		- Karma
@@ -103,7 +115,7 @@ mongod &
 test with `mongo`
 
 brew unlink node ( vice versa is brew link node4-lts)
-brew install node `brew install homebrew/versions/node4-lts`
+brew install an older version of node `brew install homebrew/versions/node4-lts`
 
 - node updates
 
