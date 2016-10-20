@@ -92,6 +92,15 @@ install mongo
 brew install mongodb
 ```
 
+MONGO setup/requirements/start
+```
+sudo mkdir -p /data/db
+sudo chmod 755 /data/db
+sudo chown -R addison.pan: /data
+mongod &
+```
+test with `mongo`
+
 brew unlink node ( vice versa is brew link node4-lts)
 brew install node `brew install homebrew/versions/node4-lts`
 
@@ -165,14 +174,7 @@ installation directions: `https://github.com/Bash-it/bash-it`
 $ . ~/.bash_profile
 ```
 
-MONGO setup/requirements/start
-```
-sudo mkdir -p /data/db
-sudo chmod 755 /data/db
-sudo chown -R addison.pan: /data
-mongod &
-```
-test with `mongo`
+
 
 
 - need to install ant 'brew install ant'
