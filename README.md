@@ -216,6 +216,14 @@ brew tap git-duet/tap
 brew install git-duet
 ```
 Then use the git duet wrapper by setting it up as the git executable in intelliJ.  The git duet wrapper is under scripts/intellij_git_duet_wrapper.sh
+```
+in intelliJ menu -> command ,
+git -> path to executable -> find your copy of the script
+```
+Create the link to percommit hook
+```
+ln -s $PWD/scripts/precommit_hook.sh .git/hooks/pre-commit
+```
 
 /etc/hosts for Jenkins
 ```
@@ -223,7 +231,7 @@ xx.xx.xx.xx css-jenkins.local css.jenkins
 ```
 
 Ask Dirk: 
-1. where in IntelliJ do we setup the duet wrapper?
+
 2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments 
 
 TO DO:
