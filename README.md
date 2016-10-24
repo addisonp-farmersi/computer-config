@@ -245,7 +245,7 @@ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git (get the a
 ```
 /etc/hosts for Jenkins
 ```
-xx.xx.xx.xx css-jenkins.local css.jenkins
+xx.xx.xx.xx css-jenkins-local css-jenkins
 ```
 
 Install the post receive hook (verify that you have css-jenkins in the hosts file)
