@@ -209,6 +209,8 @@ Airdrop - visible hostname
 ```
 scutil --set HostName
 ```
+or go to system preferences -> sharing -> change your computer name
+
 
 Git Duet Wrapper
 ```
