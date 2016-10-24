@@ -247,6 +247,7 @@ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git (get the a
 ```
 xx.xx.xx.xx css-jenkins-local css-jenkins
 ```
+note: cannot reach jenkins via guestnet
 
 Install the post receive hook (verify that you have css-jenkins in the hosts file)
 ```
