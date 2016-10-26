@@ -1,0 +1,8 @@
+Setup
+Add new user
+select the User License as salesforce
+select the role as CEO
+select the profile, could be system administrator
+fill in all required fields
+verify that Generate new password and notify user immediately is checked
+save
