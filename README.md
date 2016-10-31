@@ -32,6 +32,12 @@ OR
 DISABLE --> auto proxy discovery (DO NOT HAVE IT TURNED ON)
 auto proxy configuration
 ```
+
+DNS
+```
+21stcentury.com
+pid.aig.com
+```
 	
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/), [direct download](https://www.mozilla.org/firefox/new/?scene=2)
