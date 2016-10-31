@@ -181,7 +181,7 @@ sample ~/.gitconfig:
 ```
 
 OS setup
-System Preference -> Advanced -> Proxies -> click first 2 (Auto Proxy Discovery, Automatic Proxy Configuration)
+System Preference -> Advanced -> Proxies -> click the 2nd option (Automatic Proxy Configuration)
 
 bashit
 installation directions: `https://github.com/Bash-it/bash-it`
