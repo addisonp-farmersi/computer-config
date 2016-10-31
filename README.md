@@ -24,8 +24,10 @@ Aquamacs is optional, for those that wish to use emacs:
 
 - [Jiggler](http://www.sticksoftware.com/software/Jiggler.html), [direct download](http://downloads.sticksoftware.com/Jiggler.dmg)
 
-- [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-	- update proxy (upper right corner of the browser -> more -> setting -> advanced settings -> network)
+- [Chrome](https://www.google.com/chrome/browser/desktop/index.html) / OS setup
+	- (OS) System Preference -> Advanced -> Proxies -> click the 2nd option (Automatic Proxy Configuration)
+OR
+	- (Chrome) update proxy (upper right corner of the browser -> more -> setting -> advanced settings -> network)
 ```
 DISABLE --> auto proxy discovery (DO NOT HAVE IT TURNED ON)
 auto proxy configuration
@@ -179,9 +181,6 @@ sample ~/.gitconfig:
     [merge]
       tool=bc3
 ```
-
-OS setup
-System Preference -> Advanced -> Proxies -> click the 2nd option (Automatic Proxy Configuration)
 
 bashit
 installation directions: `https://github.com/Bash-it/bash-it`
