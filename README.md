@@ -27,7 +27,7 @@ Aquamacs is optional, for those that wish to use emacs:
 - [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 	- update proxy (upper right corner of the browser -> more -> setting -> advanced settings -> network)
 ```
-auto proxy discover
+DISABLE --> auto proxy discovery (DO NOT HAVE IT TURNED ON)
 auto proxy configuration
 ```
 	
