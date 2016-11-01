@@ -259,6 +259,10 @@ Install the post receive hook (verify that you have css-jenkins in the hosts fil
 ln -s $PWD/scripts/postreceive_hook.sh .git/hooks/post-receive
 ```
 
+VPN with a MAC
+1. remove all proxy information and uncheck the `Use Passive FTP Mode (PASV)`
+2. remove all DNS Search Domains
+
 Ask Dirk: 
 
 2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments 
