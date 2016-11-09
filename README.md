@@ -67,6 +67,18 @@ npm -g install karma
 npm -g install bower
 npm -g install phantomjs
 ```
+Add `PHANTOMJS` to the class path 
+
+Open the bash profile 
+`vim ~/.bash_profile`
+
+Add the following line in .bash_profile. Make sure  points to valid location. 
+
+```
+$ export PHANTOMJS_BIN=/usr/local/lib/node_modules/phantomjs/lib/phantom/bin/phantomjs`
+```
+=====================
+
 go to the project directory (~/workspace/farmer-css)
 ```
 npm install (gets grunt and bower)
