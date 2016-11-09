@@ -17,7 +17,7 @@ stickey bezel
 launch flycut on login
 ```
 
-- [Iterm2](https://iterm2.com/),  [direct download](https://iterm2.com/downloads/stable/iTerm2-3_0_10.zip) is a terminal replacement 
+- [Iterm2](https://iterm2.com/),  [direct download](https://iterm2.com/downloads/stable/iTerm2-3_0_10.zip) is a terminal replacement
 
 Aquamacs is optional, for those that wish to use emacs:
 - [Aquamacs](http://aquamacs.org/), [direct download](https://github-cloud.s3.amazonaws.com/releases/163782/df98aa78-7ec1-11e6-94e2-f2baf22a8138.dmg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20161017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20161017T033114Z&X-Amz-Expires=300&X-Amz-Signature=2852372ae195be018fcafa83540533b2ccf160788a97b283e5e356ea6a2dcb6a&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3DAquamacs-Emacs-3.3.dmg&response-content-type=application%2Foctet-stream)
@@ -38,7 +38,7 @@ DNS
 21stcentury.com
 pid.aig.com
 ```
-	
+
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/), [direct download](https://www.mozilla.org/firefox/new/?scene=2)
 
@@ -62,7 +62,7 @@ brew install node
 ```
 brew install joe
 
-npm -g install grunt-cli
+npm -g install grunt-cli    
 npm -g install karma
 npm -g install bower
 npm -g install phantomjs
@@ -198,8 +198,8 @@ $ . ~/.bash_profile
 
 
 - need to install ant 'brew install ant'
-	- require java 'brew cask install java' 
-- need to install selenium 
+	- require java 'brew cask install java'
+- need to install selenium
 
 
 
@@ -237,7 +237,7 @@ ssh-keygen -t rsa -b 4096 -C "xxx"
 ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub  (copy this)
 ```
-then go to github.com -> settings -> SSH and GPG keys -> new SSH Key -> put in the data copied above from the id_rsa.pub 
+then go to github.com -> settings -> SSH and GPG keys -> new SSH Key -> put in the data copied above from the id_rsa.pub
 
 verify that the git remote is through ssh not through https
 ```
@@ -264,9 +264,9 @@ VPN with a MAC
 1. remove all proxy information and uncheck the `Use Passive FTP Mode (PASV)`
 2. remove all DNS Search Domains
 
-Ask Dirk: 
+Ask Dirk:
 
-2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments 
+2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments
 
 TO DO:
-setup proxies for npm and grunt 
+setup proxies for npm and grunt
