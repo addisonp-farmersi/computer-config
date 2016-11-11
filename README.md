@@ -149,6 +149,7 @@ authors:
   hs: Harshesh Shah
   mh: Manuk Hovanesian
   wl: William Lee
+  im: Isaac Mahgrefteh
 
 email_addresses:
   jl: xxxx@farmersinsurance.com
@@ -157,6 +158,7 @@ email_addresses:
   hs: xxx@capgemini.com
   mh: xxx@farmersinsurance.com
   wl: xxx@farmersinsurance.com
+  im: xxx@farmersinsurance.com
 ```
 sample ~/.gitconfig:
 ```
