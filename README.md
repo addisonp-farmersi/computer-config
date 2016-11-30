@@ -278,6 +278,23 @@ VPN with a MAC
 1. remove all proxy information and uncheck the `Use Passive FTP Mode (PASV)`
 2. remove all DNS Search Domains
 
+Maven:
+create a file settings.xml in the ~/.m2 directory, an example is listed below, please contact Addison or Ben for more details
+
+```
+<settings> 
+  <proxies>
+   <proxy>
+      <id>xxx</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>xxx</host>
+      <port>xxx</port>
+    </proxy>
+  </proxies>
+</settings>
+```
+
 Ask Dirk:
 
 2. when silver is pushed to the remote repository, what is the trigger to sf push to the development environments
