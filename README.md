@@ -75,7 +75,7 @@ Open the bash profile
 Add the following line in .bash_profile. Make sure  points to valid location. 
 
 ```
-$ export PHANTOMJS_BIN=/usr/local/lib/node_modules/phantomjs/lib/phantom/bin/phantomjs`
+$ export PHANTOMJS_BIN=/usr/local/lib/node_modules/phantomjs/lib/phantom/bin/phantomjs
 ```
 =====================
 
@@ -85,6 +85,7 @@ npm install (gets grunt and bower)
 grunt update
 ```
 optionally, get the node directory from a working machine and airdrop it to whomever needs it.
+(could be in the /usr/local/Cellar directory)
 
 if grunt update fails then try:
 ```
