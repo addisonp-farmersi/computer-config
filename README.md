@@ -275,9 +275,11 @@ ln -s $PWD/scripts/postreceive_hook.sh .git/hooks/post-receive
 ```
 
 VPN with a MAC
-
+could try:
 1. remove all proxy information and uncheck the `Use Passive FTP Mode (PASV)`
 2. remove all DNS Search Domains
+
+noticed that VPN with MAC out of the office works best when directly wired in and not using the wireless
 
 Maven:
 create a file settings.xml in the ~/.m2 directory, an example is listed below, please contact Addison or Ben for more details
