@@ -46,7 +46,7 @@ pid.aig.com
 	- plugins:
 		- NodeJS
 		- Karma
-		- Line Sorter
+		- Lines Sorter
 		- Angular JS
 
 - install brew via commandline in your iterm2
