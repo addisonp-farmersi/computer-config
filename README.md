@@ -48,6 +48,7 @@ pid.aig.com
 		- Karma
 		- Lines Sorter
 		- Angular JS
+- install XCode for Mac OS from the App Store (required to install Homebrew)
 
 - install brew via commandline in your iterm2
 ```
@@ -261,7 +262,7 @@ git remote -v
 
 if the git remote is through https then change it via
 ```
-git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git (get the actual value from a team member)
+git remote set-url origin git@*website address*:*organization*/*repository*.git (get the actual value from a team member)
 ```
 /etc/hosts for Jenkins
 ```
